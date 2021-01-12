@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgeVerifier</title>
+    <link rel="stylesheet" href="styleAge.css">
+</head>
+<body>
+    <header>
+        <h1>Age Verifier</h1>
+    </header>
+    <section>
+        <div id="divData">
+            <p> Birthyear: 
+                <input type="number" name="yearbox" id="yearbox" min="1900"></input>
+            </p>
+            
+            <p>Your gender:
+                <input type = "radio" id="male" name="gender" checked> <label for="male">Male</label>
+                <input type = "radio" id="female" name="gender"> <label for ="female">Female</label>
+                
+            </p>
+
+            <p>
+                <input type="button" value="Check" onclick="check()">
+            </p>
+
+            
+        </div>
+        <div id= "divRes">
+                
+        </div>
+    </section>
+    <footer>
+            <p>&copy; souzaflaviar</p>
+    </footer>
+    <script src= "scriptAge.js"></script>
+</body>
+</html>
