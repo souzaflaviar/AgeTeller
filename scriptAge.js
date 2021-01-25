@@ -22,7 +22,7 @@ function check()
             if (age<14)
             {
                 //child
-                img.setAttribute('src', 'mchild.jpg')
+                img.setAttribute('src', 'img/mchild.jpg')
             }else if (age>=14 && age <=24)
             {
                 //young
